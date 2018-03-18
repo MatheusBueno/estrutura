@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1521348975 source:c:\users\mathe\documents\faculdade\3-semestre\estrutura\aps2\exercicio3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
