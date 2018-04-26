@@ -1,0 +1,4 @@
+A lista duplamente encadeada pode melhorar o custo de algumas operações devido ao fato dela poder se
+comunicar com o elemento anterior e o próximo, retidando assim a presença de um auxiliar e, como não é necessario
+um novo elemento o seu custo é menor;
+As operações de remoção e inserção, por exemplo são diretamente afetadas, pois elas não necessitam do auxiliar com a lista duplamente encadeada;

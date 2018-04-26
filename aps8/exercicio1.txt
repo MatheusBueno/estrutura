@@ -1,0 +1,4 @@
+Exercicio 1-
+
+O código realiza a remoção na lista, por estar dentro de um for ele realizará a remoção de 3 elementos, pois for de 1 a 3
+enquanto a lista for diferente de nula. Removendo assim os valores 1,2 e 3;
