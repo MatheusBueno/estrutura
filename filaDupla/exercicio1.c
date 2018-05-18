@@ -1,10 +1,3 @@
-/**
-* Professor Diogo Cezar Teixeira Batista
-* <diogo@diogocezar.com>
-* <diogoc@utfpr.edu.br>
-* Exemplo de Fila Duplamente Encadeada
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -183,6 +176,11 @@ void parEnd(Queue *q) {
 }
 
 void recursive(Queue *a, Queue *b) {
+
+	if(isEmptyQueue(a) && isEmptyQueue(b)) {
+		printf("\nListas vazias\n");
+		return;
+	}
   
   Node *n1 = a->start;
   Node *n2 = b->start;
@@ -205,17 +203,17 @@ void recursive(Queue *a, Queue *b) {
 int main(){
 	Queue * q;
 	q = create();
-
+	
 	Queue * p;
 	p = create();
 
-	insertStart(q, 1);
-	insertStart(q, 2);
-	insertStart(q, 3);
+	insertEnd(q,1);
+	insertEnd(q,2);
+	insertEnd(q,3);
 
-	insertStart(p, 1);
-	insertStart(p, 2);
-	insertStart(p, 3);
+	insertEnd(p,1);
+	insertEnd(p,2);
+	insertEnd(p,3);
 
   recursive(q,p);
 
